@@ -1,0 +1,187 @@
+.gkNspPM-EvoNews2 {
+	margin-right: -30px;
+	margin-left: -30px;
+	display: flex;
+}
+
+.gkNspPM-EvoNews2 .leading {
+	width: 66.66%;
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.gkNspPM-EvoNews2 .leading .row {
+	display: flex;
+}
+
+.gkNspPM-EvoNews2 .leading .art {
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.gkNspPM-EvoNews2 .leading .art .nspInfo.nspInfo1 {
+	position: absolute;
+	bottom: 0;
+}
+
+.gkNspPM-EvoNews2 .leading.columns-2 .art {
+	width: 50%;
+	float: left;
+}
+
+.gkNspPM-EvoNews2 .leading.columns-2 .art + .art {
+	border-left: 1px solid #ddd;
+}
+
+.gkNspPM-EvoNews2 .leading .nspHeader {
+	font-size: 24px;
+  line-height: 1.25;
+}
+
+.gkNspPM-EvoNews2 .intro {
+	width: 33.33%;
+	float: left;
+	border-left: 1px solid #ddd;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-1 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-1 .art {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-1 .art .nspInfo2 {
+	display: none;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-1 .art + .art {
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid #ddd;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-1 .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.gkNspPM-EvoNews2 .intro .nspText {
+	display: none;
+}
+
+.gkNspPM-EvoNews2 .intro .nspImageWrapper {
+	margin-bottom: 0 !important;
+}
+
+.gkNspPM-EvoNews2 .intro .art {
+	position: relative;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-2 {
+	padding-left: 30px;
+	padding-right: 30px;
+	overflow: hidden;
+	position: relative;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-2 .row {
+	margin-top: -30px;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-2:before {
+	content: "";
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 1px;
+	background: #ddd;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-2 .art::before {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  visibility: visible;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-2 .art {
+	width: 50%;
+	float: left;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-2 .art:nth-child(2n+1) {
+	clear: left;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-2 .art + .art {
+	margin-top: 0;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-2 .nspImageWrapper {
+	float: none;
+	padding-left: 0;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.gkNspPM-EvoNews2 .intro.columns-2 .nspInfo2 {    
+	left: auto;
+  bottom: auto;
+  margin-top: -45px;
+}
+
+.gkNspPM-EvoNews2 .intro .nspHeader {
+}
+
+.gkNspPM-EvoNews2 .intro .nspInfo2 {
+	left: calc(50% + 15px);
+	bottom: -15px;
+	margin: 0;
+}
+
+.gkNspPM-EvoNews2 .intro .nspInfo.nspInfo1 {
+	clear: none;
+}
+
+.gkNspPM-EvoNews2 .intro .art + .art {
+	margin-top: 30px;
+}
+
+.gkNspPM-EvoNews2 .nspImageWrapper {
+	margin-bottom: 30px;
+	display: block;
+}
+
+.gkNspPM-EvoNews2 .intro .nspImageWrapper {
+	float: right;
+	padding-left: 15px;
+	width: 50%;
+}
+
+.gkNspPM-EvoNews2 .intro .figcaption {
+	width: 50%;
+	padding-right: 15px;
+}
+
+.gkNspPM-EvoNews2 .intro figure {
+	overflow: hidden;
+}
+
+.gkNspPM-EvoNews2 figure + figure {
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid #ddd;
+}

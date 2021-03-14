@@ -1,0 +1,9 @@
+{
+	"name": "BLEND_COFFEE_MENU",
+	"full_name": "BLEND_COFFEE_MENU",
+	"support": [
+		"com_content",
+		"com_k2"
+	],
+	"thumbnails": true
+}

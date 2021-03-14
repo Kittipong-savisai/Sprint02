@@ -1,0 +1,9 @@
+{
+	"name": "EVONEWS2",
+	"full_name": "EVONEWS2",
+	"support": [
+		"com_content", 
+		"com_k2"
+	],
+	"thumbnails": true
+}

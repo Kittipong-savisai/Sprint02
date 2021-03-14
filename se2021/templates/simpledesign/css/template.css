@@ -1,0 +1,575 @@
+/******************************/
+/******** Template CSS ********/
+/******************************/
+body { font-family: Arial, Helvetica, sans-serif; margin: 0px; font-size: 16px; line-height: 1.6; background: #fafafa; }
+p { margin: 15px 0px; }
+img { border: none; padding: 0; margin: 0; }
+.clearbreak { clear: both; }
+h1, h2, h3, h4, h5 { margin: 0px;}
+h1 { font-size: 26px; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+input, select, button, .btn, textarea { font-family: Arial, Helvetica, sans-serif; font-size: 17px; }
+@media screen and (min-width:480px){
+body { font-size: 14px; }
+h1 { font-size: 24px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+input, select, button, .btn, textarea { font-size: 15px; }
+}
+@media screen and (min-width:1024px){
+body { background: #f0f0f0; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#banner { padding: 10px 0px; margin: 0px 0px 15px 0px; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; }
+#container { padding: 0px 15px; }
+#copyright { padding: 10px 0px; border-top: 1px solid #c0c0c0; }
+@media screen and (min-width:1024px){
+#header { float: left; width: 930px; padding: 10px 15px; background: url(../images/white-header.gif) center; border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; }
+#navigation { float: left; width: 960px; background: #363636; border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; }
+#banner { float: left; width: 940px; padding: 10px; margin: 0px; background: #dedede; border-top: none; border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; }
+#content { float: left; width: 930px; padding: 15px 15px 0px 15px; background: #fafafa; border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; }
+#footer { float: left; width: 930px; padding: 15px 15px 0px 15px; background: #fafafa; border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; border-top: 1px solid #CCCCCC; }
+#copyright { float: left; width: 930px; height: 50px; padding: 10px 15px; background: url(../images/white-header.gif) bottom; border-left: 5px solid #CCCCCC; border-right: 5px solid #CCCCCC; border-top: 1px solid #CCCCCC; }
+#container { width: 970px; padding: 0px 10px; margin: 0 auto; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.logo { width: 100%; max-width: 300px; }
+#logo { text-align: center; margin: 0 auto; padding: 10px 15px; margin: 0px 0px 15px 0px; background: #f0f0f0; }
+#search { padding: 0px 0px 15px 0px; text-align: center; }
+#copy, #design { text-align: center; }
+#design a { color: #000000; text-decoration: none; }
+@media screen and (min-width:1024px){
+.logo { width: auto; max-width: none; height: 80px; }
+#logo { max-width: none; float: left; padding: 0px; margin: 0px; background: none; }
+#search { float: right; padding: 0px 10px 0px 0px; text-align: left; }
+#copy { float: left; margin: 15px 0px 0px 0px; }
+#design { float: right; margin: 15px 0px 0px 0px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#content-right-layout, #content-left-layout, #content-left-right, #right-right-layout, #left-left-layout, #left-left-right, #right-left-right { clear: both; }
+@media screen and (min-width:768px){
+#content-right-layout { float: left; width: 67%; clear: none; }
+#content-left-layout { float: right; width: 67%; clear: none; }
+#content-left-right { float: left; width: 54%; margin: 0px 0px 0px 20px; clear: none; }
+#right-right-layout { float: right; width: 30%; clear: none; }
+#left-left-layout { float: left; width: 30%; clear: none; }
+#left-left-right { float: left; width: 20%; clear: none; }
+#right-left-right { float: right; width: 20%; clear: none; }
+}
+@media screen and (min-width:1024px){
+#content-right-layout { float: left; width: 660px; clear: none; }
+#content-left-layout { float: right; width: 660px; clear: none; }
+#content-left-right { float: left; width: 490px; margin: 0px 0px 0px 20px; clear: none; }
+#right-right-layout { float: right; width: 250px; clear: none; }
+#left-left-layout { float: left; width: 250px; clear: none; }
+#left-left-right { float: left; width: 200px; clear: none; }
+#right-left-right { float: right; width: 200px; clear: none; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+ul.menu, ul.menu ul, ul.dropdown-menu, .pagination ul, #login-form ul, ul.breadcrumb, ul.nav, ol.nav, ul.category, ul.search-results, ul.thumbnails, ul.tags, ul.btn-toolbar, ul.archive-module, ul.categories-module, ul.categories-module ul, ul.category-module, ul.category-module ul, ul.latestnews, ul.mostread, ul.relateditems, ul.newsfeed, ul.latestusers, .tagspopular ul { list-style: none; padding: 0px; margin: 0px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#menu { text-align: center; padding-bottom: 15px; }
+#menu select { padding: 4px; width: 97%; font-size: 16px; border: 1px solid #c0c0c0; }
+#menu .menu { display: none; }
+@media screen and (min-width:1024px){
+#menu { text-align: left; float: left; padding-bottom: 0px; }
+#menu select { display: none; }
+#menu .menu { display: block; }
+#menu .menu a, #menu .menu .nav-header, #menu .menu .separator { color: #FFFFFF; text-decoration: none; text-align: left; display: block; font-size: 14px; font-weight: normal; cursor: pointer; padding: 0px 15px; border-radius: 0px; background: none; border: none; }
+#menu .menu li { float: left; position: relative; line-height: 3; margin: 0px; }
+#menu .menu li.active a, #menu .menu li.active .nav-header, #menu .menu li.active .separator { background: #252525; }
+#menu .menu li li a, #menu .menu li li .nav-header, #menu .menu li li .separator { font-size: 14px; }
+#menu .menu ul { float: none; left: -999em; position: absolute; z-index: 99; width: 190px; padding: 5px 0px 10px 0px; border-radius: 0px 0px 7px 7px; background: #363636; border-bottom: 1px solid #252525; border-left: 1px solid #252525; border-right: 1px solid #252525; }
+#menu .menu ul li { width: 190px; padding: 2px 0px; position:relative;  margin-left: 0px; line-height: 1.8; }
+#menu .menu li li, #menu li:hover ul, #menu li.sfhover ul { left: auto; }
+#menu ul.menu li li:hover { background: none; }
+#menu ul.menu li.active li a, #menu ul.menu li.active li .nav-header, #menu ul.menu li.active li .separator { background: none !important; }
+#menu .menu ul ul { margin: -1.9em 0 0 12.8em; position: absolute; z-index: 99; height: auto; padding: 5px 0px; border-radius: 7px; border-top: 1px solid #252525; }
+#menu ul.menu li li li:hover { }
+#menu ul.menu li:hover ul ul, #menu ul.menu li:hover ul ul ul { left: -999em; }
+#menu ul.menu li li:hover ul, #menu ul.menu li li li:hover ul { left: auto; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#head { margin: 0px 0px 15px 0px; }
+#head p { margin: 0px; }
+#head .menu a, #head .menu .nav-header, #head .menu .separator  { color: #000000; text-decoration: none; text-align: center; display: block; padding: 3px 10px; border-radius: 7px; background: url(../images/button.gif) center; border: 1px solid #c0c0c0; }
+#head .menu li { margin: 2px 0px; }
+#head .menu li li { display: none; }
+@media screen and (min-width:1024px){
+#head { float: right; height: 70px; max-width: 550px; margin: 5px 0px 0px 0px; overflow: hidden; }
+#head form { margin: 20px 0px 0px 0px; }
+#head .menu a, #head .menu .nav-header, #head .menu .separator  { padding: 0px; background: none; border: none; }
+#head .menu li { float: left; margin: 25px 0px 0px 25px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#search { padding: 0px 0px 15px 0px; text-align: center; }
+#search .menu a, #search .menu .nav-header, #search .menu .separator { color: #000000; text-decoration: none; text-align: center; display: block; padding: 3px 10px; margin: 2px 0px; border-radius: 7px; background: url(../images/button.gif) center; border: 1px solid #c0c0c0; }
+#search .menu li li { display: none; }
+@media screen and (min-width:1024px){
+#search { float: right; padding: 0px 10px 0px 0px; text-align: left; }
+#search form { margin: 5.5px 0px 0px 0px; }
+#search .menu a, #search .menu .nav-header, #search .menu .separator { color: #FFFFFF; font-size: 14px; padding: 0px; margin: 0px; background: none; border: none; }
+#search .menu li { float: left; padding: 0px; margin: 0px 10px 0px 15px; line-height: 3; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.tooltip { position: absolute; z-index: 1030; display: block; font-size: 12px; line-height: 1.4; opacity: 0; filter: alpha(opacity=0); visibility: visible; }
+.tooltip.in { opacity: .8; filter: alpha(opacity=80); }
+.tooltip.top { padding: 5px 0; margin-top: -3px; }
+.tooltip-inner { max-width: 200px; padding: 8px; color: #fff; text-align: center; text-decoration: none; background-color: #000; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.tooltip-arrow { position: absolute; width: 0; height: 0; border-color: transparent; border-style: solid; }
+.tooltip.top .tooltip-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-color: #000; border-width: 5px 5px 0; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.popover { position: absolute; top: 0; left: 0; z-index: 1060; display: none; max-width: 276px; padding: 1px; text-align: left; background: #FFFFFF; -webkit-background-clip: padding-box; -moz-background-clip: padding; background-clip: padding-box; border: 1px solid #dedede; border: 1px solid rgba(0,0,0,0.2); -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2); -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2); box-shadow: 0 5px 10px rgba(0,0,0,0.2); white-space: normal; }
+.popover.top { margin: -10px 0px 0px 0px; }
+.popover.left { margin: 0px 0px 0px -10px; }
+.popover.right { margin: 0px 0px 0px 10px; }
+.popover.bottom { margin: 10px 0px 0px 0px; }
+.popover .arrow, .popover .arrow:after { position: absolute; display: block; width: 0; height: 0; border-color: transparent; border-style: solid; }
+.popover .arrow { border-width: 11px; }
+.popover .arrow:after { border-width: 10px; content: ""; }
+.popover.right .arrow { top: 50%; left: -11px; margin: -11px 0px 0px 0px; border-left-width: 0; border-right-color: #999; border-right-color: rgba(0,0,0,0.25); }
+.popover.right .arrow:after { left: 1px; bottom: -10px; border-left-width: 0; border-right-color: #fff; }
+.popover-title { margin: 0; padding: 5px 15px; font-size: 16px; font-weight: normal; line-height: 18px; background: #f7f7f7; border-bottom: 1px solid #ebebeb; -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0; }
+.popover-content { padding: 12px 15px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.alert { padding: 10px; margin: 0px 0px 15px 0px; border: 1px solid #dedede; }
+.alert button.close { font-size: 20px; cursor: pointer; float: right; display: block; margin: -7px 0px 0px 0px; background: none; border: none; }
+.alert a.close { font-size: 20px; cursor: pointer; float: right; display: block; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.page-header h1, .contact h1, .categories-list h1, .contact-category h1, .newsfeed-category h1, .tag-category h1 { padding: 0px 0px 5px 0px; margin: 0px 0px 10px 0px; border-bottom: 1px solid #dedede; }
+h3.page-header { padding: 0px 0px 5px 0px; margin: 0px 0px 10px 0px; border-bottom: 1px solid #dedede; }
+.blog-featured h2.item-title, .blog .page-header h2 { padding: 0px 0px 5px 0px; margin: 0px 0px 15px 0px; border-bottom: 1px solid #dedede; }
+.item-page .page-header h2 a, .blog-featured h2.item-title a, .blog .page-header h2 a { color: #000000; text-decoration: none; }
+@media screen and (min-width:768px){
+.page-header h1, .contact h1, .categories-list h1, .contact-category h1, .newsfeed-category h1, .tag-category h1 { font-size: 20px; padding: 5px 10px; background: #f0f0f0; border: 1px solid #dedede; }
+.layout h3.page-header { padding: 5px 10px; background: #f0f0f0; border: 1px solid #dedede; }
+.blog-featured h2.item-title, .blog .page-header h2, .item-page .page-header h2, .contact h2 { font-size: 18px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.dropdown-menu li { display: inline; margin: 0px 10px 0px 0px; }
+dl.article-info dd { padding: 0; margin: 0; }
+.article-info-term { display: none; }
+.item-image img { width: 100%; }
+p.readmore { margin: 0px; }
+p.readmore a { color: #000000; text-decoration: none; padding: 5px 10px; border-radius: 5px; background: url(../images/button.gif); border: 1px solid #c0c0c0; }
+.items-more { margin: 0px 0px 15px 0px; }
+.archive fieldset { padding: 0px; border: none; }
+.item-page .pager { text-align: center; margin: 0px 0px 15px 0px; }
+.item-page .pager li { display: inline; margin: 0px 10px; }
+.dropdown-menu li a, .category-name a, .items-more a, #archive-items a, .item-page .nav a, .pager a { color: #000000; text-decoration: none; }
+@media screen and (min-width:480px){
+.items-leading .article-info dd, .item-page .article-info dd, .cols-1 .article-info dd { display: inline; margin: 0px 10px 0px 0px; }
+.items-more li { display: inline; margin: 0px 15px 0px 0px; }
+.item-page .nav li { display: inline; margin: 0px 15px 0px 0px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.pagination { float: left; width: 100%; padding: 0px 0px 20px 0px; text-align: center; clear: both; }
+p.counter { margin: 0px 0px 10px 0px; }
+.pagination li { display: inline; }
+li.pagination-number { display: none; }
+.pagination .pagenav { color: #000000; text-decoration: none; padding: 5px 10px; margin: 0px 2px; border-radius: 5px; background: url(../images/button.gif); border: 1px solid #c0c0c0; }
+ul.pagenav .previous { float: left; margin: 0px 0px 20px 0px; }
+ul.pagenav .next { float: right; margin: 0px 0px 20px 0px; }
+ul.pagenav .previous a, ul.pagenav .next a { color: #000000; text-decoration: none; }
+@media screen and (min-width:768px){
+.pagination ul { float: left; }
+p.counter { float: right; margin: 0px; }
+li.pagination-number { display: inline; }
+.items-row { clear: both; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.breadcrumb a { color: #000000; text-decoration: none; }
+@media screen and (min-width:480px){
+.breadcrumb li { display: inline; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.category-list table { width: 100%; margin: 0px 0px 15px 0px; }
+.category-list td, .category-list th { text-align: left; padding: 5px; border: 1px solid #dedede; }
+.category-list .inputbox, .category-list #filter_tag { padding: 5px; border: 1px solid #c0c0c0; }
+.category-list fieldset { padding: 0px; border: none; }
+.category-list .btn-group { text-align: center; margin: 0px 0px 10px 0px; }
+.category-list .badge-info { padding: 3px; border-radius: 5px; background: #FFFFFF; border: 1px solid #dedede; }
+.category-list a { color: #000000; text-decoration: none; }
+@media screen and (min-width:768px){
+.category-list td, .category-list th { padding: 5px 10px; }
+.category-list .btn-group { float: left; }
+.category-list .btn-group.pull-right { float: right; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.contact { margin: 0px 0px 20px 0px; }
+.contact h2 { margin: 0px 0px 15px 0px; }
+.contact h3 { margin: 0px 0px 15px 0px; }
+.contact fieldset { padding: 10px; border: 1px solid #c0c0c0; }
+.contact .accordion fieldset { border: none; padding: 0px; margin: 0px; }
+.contact a.accordion-toggle { color: #000000; text-decoration: none; display: block; padding: 5px 10px; border: 1px solid #c0c0c0; }
+.contact .accordion-inner { padding: 10px; border: 1px solid #c0c0c0; }
+.contact .accordion legend { display: block; margin: 0px 0px 10px 0px; }
+.contact .nav { margin: 0px 0px 15px 0px; list-style: none; border-bottom: 1px solid #c0c0c0; }
+.contact .nav > li > a { color: #000000; text-decoration: none; display: block; display: block; padding: 10px 15px; line-height: 18px; margin: 0px 2px 0px 0px; border: 1px solid transparent; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
+.contact .nav > .active > a, .contact .nav > .active > a:hover, .contact .nav > .active > a:focus { color: #000000; background: #f5f5f6; border: 1px solid #c0c0c0; border-bottom-color: transparent; cursor: default; }
+.contact .nav:before, .contact .nav:after { display: table; content: ""; line-height: 0; }
+.contact .nav:after { clear: both; }
+.contact .nav > li { float: left; margin-bottom: -1px; }
+.contact .tab-content > .tab-pane { display: none; }
+.contact .tab-content > .active { display: block; }
+.contact .dl-horizontal dt { float: left; clear: left; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; line-height: 2; }
+.contact .dl-horizontal dd { margin: 0px 0px 0px 30px; line-height: 2; }
+.contact .control-group { margin: 0px 0px 10px 0px; }
+.contact input.required { padding: 5px; width: 94%; border: 1px solid #c0c0c0; }
+.contact textarea.required { padding: 4px; width: 94%; border: 1px solid #c0c0c0; }
+.contact .contact-links .nav { border-bottom: none; margin: 0px; padding: 0px; }
+.contact .thumbnail img { width: 100%; }
+.blog-featured fieldset { padding: 0px; margin: 0px 0px 10px 0px; border: none; }
+.blog-featured .hidelabeltxt { display: none; }
+.blog-featured #adminForm select.inputbox { border: 1px solid #c0c0c0; padding: 5px; }
+.blog-featured table.category { text-align: left; width: 100%; margin: 0px 0px 15px 0px; }
+.blog-featured table.category th { padding: 5px 10px; border: 1px solid #c0c0c0; }
+.blog-featured table.category td { padding: 5px 10px; border: 1px solid #c0c0c0; }
+.contact-category h2 { margin: 0px 0px 10px 0px; }
+.contact-category fieldset { padding: 0px; border: none;  }
+.contact-category .btn-group { margin: 0px 0px 15px 0px; }
+.contact-category .inputbox { border: 1px solid #c0c0c0; padding: 5px; }
+.contact-category ul.category { float: left; width: 100%; margin: 0px 0px 15px 0px; border-top: 1px solid #c0c0c0; }
+.contact-category ul.category li { float: left; width: 100%; border-bottom: 1px solid #c0c0c0; padding: 10px 0px; }
+.contact-category img { width: 100%; }
+.contact-emailto a, .contact-webpage a, .contact-category a, .blog-featured table.category a, .categories-list .item-title a { color: #000000; text-decoration: none; }
+@media screen and (min-width:480px){
+.contact .thumbnail { float: right; }
+.contact .thumbnail img { width: auto; height: 65px; }
+.contact-category img { float: right; width: auto; height: 65px; }
+}
+@media screen and (min-width:768px){
+.contact-category .btn-group { float: left; }
+.contact-category .btn-group.pull-right { float: right; }
+.contact input.required { width: 250px; }
+.contact textarea.required { height: 200px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.search form, .finder form, .form-search .finder { text-align: center; }
+.search label.element-invisible, .finder label { display: none; }
+.search #mod-search-searchword, .finder #mod-finder-searchword { width: 97%; padding: 5px; margin: 0px 0px 5px 0px; border: 1px solid #c0c0c0; }
+#searchForm, #finder-search { margin: 0px 0px 20px 0px; }
+#searchForm #search-searchword, #finder-search input.inputbox { width: 97%; padding: 5px; margin: 0px 0px 5px 0px; border: 1px solid #c0c0c0; }
+div.search-results { margin: 0px 0px 15px 0px; }
+.collapse { position: relative; height: 0; overflow: hidden; -webkit-transition: height .35s ease; -moz-transition: height .35s ease; -o-transition: height .35s ease; transition: height .35s ease; }
+.collapse.in { height: auto; }
+.search-results li { margin: 0px 0px 15px 0px; }
+.search-results p { margin: 0px; }
+.search-pages-counter { text-align: center; padding: 0px 0px 20px 0px; }
+.search-results a { color: #000000; text-decoration: none; }
+@media screen and (min-width:480px){
+.search #mod-search-searchword { width: 210px; margin: 0px; }
+.finder #mod-finder-searchword { width: 200px; margin: 0px; }
+#searchForm #search-searchword, #finder-search input.inputbox { width: 300px; margin: 0px; }
+}
+@media screen and (min-width:768px){
+.search-pages-counter { text-align: left; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+#login-form .input-small { width: 97%; padding: 5px; border: 1px solid #c0c0c0; }
+#login-form .control-group { margin: 0px 0px 10px 0px; }
+#login-form .add-on { display: block; margin: 0px 0px 5px 0px; }
+#login-form a { color: #000000; text-decoration: none; }
+.login fieldset { padding: 0px; border: none; }
+.login .control-group { margin: 0px 0px 10px 0px; }
+.login .control-label { margin: 0px 0px 5px 0px; }
+.login ul { margin: 0px 0px 20px 0px; }
+.login a { color: #000000; text-decoration: none; }
+.login input.required { width: 97%; padding: 5px; border: 1px solid #c0c0c0; }
+.registration { margin: 0px 0px 20px 0px; }
+.registration fieldset { padding: 0px; border: none; }
+.registration .control-group { margin: 0px 0px 10px 0px; }
+.registration input.required { width: 97%; padding: 5px; border: 1px solid #c0c0c0; }
+#user-registration { margin: 0px 0px 20px 0px; }
+#user-registration fieldset { padding: 10px; margin: 0px 0px 10px 0px; border: 1px solid #c0c0c0; }
+#user-registration input.required { width: 97%; padding: 5px; border: 1px solid #c0c0c0; }
+.profile .dl-horizontal dd { margin: 0px; padding: 0px; }
+#users-profile-core { margin: 10px 0px; }
+#users-profile-custom { margin: 0px 0px 20px 0px; }
+.profile-edit { margin: 0px 0px 20px 0px; }
+.profile-edit fieldset { padding: 10px; margin: 0px 0px 10px 0px; border: 1px solid #c0c0c0; }
+.logout { margin: 0px 0px 20px 0px; }
+@media screen and (min-width:480px){
+.login input.required, .registration input.required, #user-registration input.required { width: 250px; }
+.profile .dl-horizontal dt { float: left; clear: left; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; line-height: 2; }
+.profile .dl-horizontal dd { margin: 0px 0px 0px 190px; line-height: 2; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.newsfeed-category .category { margin: 0px 0px 20px 0px; }
+.newsfeed-category h2 { margin: 0px 0px 15px 0px; }
+.newsfeed-category fieldset { padding: 0px; border: none; }
+.newsfeed-category .btn-group { text-align: center; margin: 0px 0px 15px 0px; }
+.newsfeed-category br { display: none; }
+.newsfeed-category .category li { padding: 5px 10px; margin: 2px 0px; border: 1px solid #c0c0c0; }
+.newsfeed-category li a { color: #000000; text-decoration: none; }
+@media screen and (min-width:480px){
+.newsfeed-category fieldset { margin: 0px 0px 20px 0px; }
+.newsfeed-category .btn-group { float: left; margin: 0px; }
+.newsfeed-category .btn-group.pull-right { float: right; margin: 0px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.tag-category fieldset { padding: 0px; border: none; }
+.tag-category fieldset button { display: none; }
+.tag-category .btn-group { text-align: center; margin: 0px 0px 15px 0px; }
+.tag-category p { margin: 0px; }
+.tag-category li { margin: 0px 0px 15px 0px; }
+.tag-category table { margin: 0px 0px 15px 0px; }
+.tags.inline { margin: 0px 0px 15px 0px; }
+.tags.inline li { display: inline; margin: 0px 20px 0px 0px; }
+.tag-category li a, .tag-category table a, .tags.inline li a { color: #000000; text-decoration: none; }
+@media screen and (min-width:480px){
+.tag-category fieldset { margin: 0px 0px 20px 0px; }
+.tag-category .btn-group { float: left; margin: 0px; }
+.tag-category .btn-group.pull-right { float: right; margin: 0px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.edit fieldset { padding: 0px; border: none; margin: 0px 0px 20px 0px; }
+.edit .btn-toolbar .btn-group { display: inline; }
+.edit .nav { padding: 0; margin: 0px 0px 10px 0px; list-style: none; border-bottom: 1px solid #c0c0c0; }
+.edit .nav > li { float: left; margin: 0px 0px -1px 0px; }
+.edit .nav > li > a { color: #000000; text-decoration: none; display: block; padding: 8px 12px; margin: 0px 2px 0px 0px; line-height: 18px; border: 1px solid transparent; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
+.edit .nav > .active > a, .edit .nav > .active > a:hover, .edit .nav > .active > a:focus { color: #000000; background: #f0f0f0; border: 1px solid #c0c0c0; border-bottom-color: transparent; cursor: default; }
+.edit .nav > li > a:hover, .edit .nav > li > a:focus { border-color: #c0c0c0 #c0c0c0 #c0c0c0; }
+.edit .nav:before, .edit .nav:after { display: table; content: ""; line-height: 0; }
+.edit .nav:after { clear: both; }
+.edit .tab-content > .tab-pane { display: none; }
+.edit .tab-content > .active { display: block; }
+@font-face { font-family: 'IcoMoon'; src: url('../../../media/jui/fonts/IcoMoon.eot'); src: url('../../../media/jui/fonts/IcoMoon.eot?#iefix') format('embedded-opentype'), url('../../../media/jui/fonts/IcoMoon.woff') format('woff'), url('../../../media/jui/fonts/IcoMoon.ttf') format('truetype'), url('../../../media/jui/fonts/IcoMoon.svg#IcoMoon') format('svg'); font-weight: normal; font-style: normal; }
+[class^="icon-"]:before, [class*=" icon-"]:before { font-family: 'IcoMoon'; font-style: normal; speak: none; }
+.icon-calendar:before { content: "\43"; }
+.edit .editor { margin: 10px 0px 0px 0px; }
+.edit .control-group { margin: 0px 0px 10px 0px; }
+.edit .pull-right { float: right; padding: 10px 0px 0px 0px; }
+.edit .control-group .inputbox { border: 1px solid #c0c0c0; padding: 3px; width: 250px; }
+.edit .btn-toolbar button.btn { margin: 0px 2px 10px 2px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+.moduletable { padding: 0px 0px 15px 0px; }
+.layout .menu a, .layout .nav-header, .layout .separator { color: #000000; text-decoration: none; display: block; padding: 5px 10px; margin: 2px 0px; border-radius: 7px; background: url(../images/button.gif) center; border: 1px solid #c0c0c0; }
+.footer .menu a, .footer .menu .nav-header, .footer .menu .separator { color: #000000; text-decoration: none; display: block; padding: 5px 0px; border-bottom: 1px solid #dedede; }
+.user .menu a, .user .menu .nav-header, .user .menu .separator { color: #000000; text-decoration: none; display: block; padding: 5px 0px; border-bottom: 1px solid #dedede; }
+ul.archive-module a, ul.categories-module li, ul.category-module li, ul.latestnews a, ul.mostread a, ul.relateditems li, ul.latestusers li, .tagspopular li { display: block; padding: 5px 0px; }
+.layout ul.archive-module a, .layout ul.categories-module li, .layout ul.category-module li, .layout ul.latestnews a, .layout ul.mostread a, .layout ul.relateditems li, .layout ul.latestusers li, .layout .tagspopular li, .user ul.archive-module a, .user ul.categories-module li, .user ul.category-module li, .user ul.latestnews a, .user ul.mostread a, .user ul.relateditems li, .user ul.latestusers li, .user .tagspopular li, { border-bottom: 1px solid #dedede; }
+.footer ul.archive-module a, .footer ul.categories-module li, .footer ul.category-module li, .footer ul.latestnews a, .footer ul.mostread a, .footer ul.relateditems li, .footer ul.latestusers li, .footer .tagspopular li { border-bottom: 1px solid #dedede; }
+ul.categories-module ul li, ul.category-module ul li { margin: 4px 0px -4px 0px; }
+.layout ul.categories-module ul li, .layout ul.category-module ul li, .user ul.categories-module ul li, .user ul.category-module ul li { border-top: 1px solid #dedede; border-bottom: none; }
+.footer ul.categories-module ul li, .footer ul.category-module ul li { border-top: 1px solid #dedede; border-bottom: none; }
+.layout ul.archive-module a, .layout ul.categories-module a, .layout ul.category-module a, .layout ul.latestnews a, .layout ul.mostread a, .layout ul.relateditems a, .layout .tagspopular li a, .layout .feed a, .user ul.archive-module a, .user ul.categories-module a, .user ul.category-module a, .user ul.latestnews a, .user ul.mostread a, .user ul.relateditems a, .user .tagspopular li a, .user .feed a { color: #000000; text-decoration: none; }
+.footer ul.archive-module a, .footer ul.categories-module a, .footer ul.category-module a, .footer ul.latestnews a, .footer ul.mostread a, .footer ul.relateditems a, .footer .tagspopular li a, .footer .feed a { color: #000000; text-decoration: none; }
+ul.newsfeed li { margin: 15px 0px 0px 0px; }
+.newsflash-title { margin: 15px 0px; }
+.layout .newsflash-title a, .user .newsflash-title a { color: #000000; text-decoration: none; }
+.footer .newsflash-title a { color: #000000; text-decoration: none; }
+a.readmore { color: #000000; text-decoration: none; }
+.categories-module h4, .categories-module h5  { font-size: 16px; font-weight: normal; }
+@media screen and (min-width:768px){
+.categories-module h4, .categories-module h5 { font-size: 14px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+input.button, input.btn, button { padding: 4px 10px; border-radius: 5px; background: url(../images/button.gif) center; border: 1px solid #c0c0c0; }
+.finder a.btn, .registration a.btn, .profile a.btn, .profile-edit a.btn, .edit a.btn { color: #000000; text-decoration: none; display: inline-block; padding: 3px 10px 2px 10px; border-radius: 5px; background: url(../images/button.gif) center; border: 1px solid #c0c0c0; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+input.button, input.btn, button { padding: 5px 10px; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+@media screen and (min-width:768px){
+#content-right-layout .cols-4 .column-1, #content-left-layout .cols-4 .column-1 { width: 100%; float: left; }
+#content-right-layout .cols-4 .column-2, #content-left-layout .cols-4 .column-2 { width: 100%; float: left; }
+#content-right-layout .cols-4 .column-3, #content-left-layout .cols-4 .column-3 { width: 100%; float: left; }
+#content-right-layout .cols-4 .column-4, #content-left-layout .cols-4 .column-4 { width: 100%; float: left; }
+#content-right-layout .cols-3 .column-1, #content-left-layout .cols-3 .column-1 { width: 100%; float: left; }
+#content-right-layout .cols-3 .column-2, #content-left-layout .cols-3 .column-2 { width: 100%; float: left; }
+#content-right-layout .cols-3 .column-3, #content-left-layout .cols-3 .column-3 { width: 100%; float: left; }
+#content-right-layout .cols-2 .column-1, #content-left-layout .cols-2 .column-1 { width: 48.5%; float: left; }
+#content-right-layout .cols-2 .column-2, #content-left-layout .cols-2 .column-2 { width: 48.5%; float: right; }
+#content-right-layout .cols-1 .column-1, #content-left-layout .cols-1 .column-1 { width: 100%; float: left; }
+#content-left-right .cols-3 .column-1 { width: 100%; float: left; }
+#content-left-right .cols-3 .column-2 { width: 100%; float: left; }
+#content-left-right .cols-3 .column-3 { width: 100%; float: left; }
+#content-left-right .cols-2 .column-1 { width: 48%; float: left; }
+#content-left-right .cols-2 .column-2 { width: 48%; float: right; }
+#content-left-right .cols-1 .column-1 { width: 100%; float: left; }
+#content-no-layout .cols-5 .column-1 { width: 100%; float: left; }
+#content-no-layout .cols-5 .column-2 { width: 100%; float: left; }
+#content-no-layout .cols-5 .column-3 { width: 100%; float: left; }
+#content-no-layout .cols-5 .column-4 { width: 100%; float: left; }
+#content-no-layout .cols-5 .column-5 { width: 100%; float: left; }
+#content-no-layout .cols-4 .column-1 { width: 23.5%; float: left; }
+#content-no-layout .cols-4 .column-2 { width: 23.5%; float: left; margin: 0px 0px 0px 2%; }
+#content-no-layout .cols-4 .column-3 { width: 23.5%; float: left; margin: 0px 0px 0px 2%; }
+#content-no-layout .cols-4 .column-4 { width: 23.5%; float: right; }
+#content-no-layout .cols-3 .column-1 { width: 32%; float: left; }
+#content-no-layout .cols-3 .column-2 { width: 32%; float: left; margin: 0px 0px 0px 2%; }
+#content-no-layout .cols-3 .column-3 { width: 32%; float: right; }
+#content-no-layout .cols-2 .column-1 { width: 49%; float: left; }
+#content-no-layout .cols-2 .column-2 { width: 49%; float: right; }
+#content-no-layout .cols-1 .column-1 { width: 100%; float: left; }
+.items-leading { float: left; width: 100%; }
+}
+@media screen and (min-width:1024px){
+#content-right-layout .cols-4 .column-1, #content-left-layout .cols-4 .column-1 { width: 153.75px; float: left; }
+#content-right-layout .cols-4 .column-2, #content-left-layout .cols-4 .column-2 { width: 153.75px; float: left; margin: 0px 0px 0px 15px; }
+#content-right-layout .cols-4 .column-3, #content-left-layout .cols-4 .column-3 { width: 153.75px; float: left; margin: 0px 0px 0px 15px; }
+#content-right-layout .cols-4 .column-4, #content-left-layout .cols-4 .column-4 { width: 153.75px; float: right; }
+#content-right-layout .cols-3 .column-1, #content-left-layout .cols-3 .column-1 { width: 210px; float: left; }
+#content-right-layout .cols-3 .column-2, #content-left-layout .cols-3 .column-2 { width: 210px; float: left; margin: 0px 0px 0px 15px; }
+#content-right-layout .cols-3 .column-3, #content-left-layout .cols-3 .column-3 { width: 210px; float: right; }
+#content-right-layout .cols-2 .column-1, #content-left-layout .cols-2 .column-1 { width: 322.5px; float: left; }
+#content-right-layout .cols-2 .column-2, #content-left-layout .cols-2 .column-2 { width: 322.5px; float: right; }
+#content-right-layout .cols-1 .column-1, #content-left-layout .cols-1 .column-1 { width: 660px; float: left; }
+#content-left-right .cols-3 .column-1 { width: 153.33px; float: left; }
+#content-left-right .cols-3 .column-2 { width: 153.33px; float: left; margin: 0px 0px 0px 15px; }
+#content-left-right .cols-3 .column-3 { width: 153.33px; float: right; }
+#content-left-right .cols-2 .column-1 { width: 237.5px; float: left; }
+#content-left-right .cols-2 .column-2 { width: 237.5px; float: right; }
+#content-left-right .cols-1 .column-1 { width: 490px; float: left; }
+#content-no-layout .cols-5 .column-1 { width: 174px; float: left; }
+#content-no-layout .cols-5 .column-2 { width: 174px; float: left; margin: 0px 0px 0px 15px; }
+#content-no-layout .cols-5 .column-3 { width: 174px; float: left; margin: 0px 0px 0px 15px; }
+#content-no-layout .cols-5 .column-4 { width: 174px; float: left; margin: 0px 0px 0px 15px; }
+#content-no-layout .cols-5 .column-5 { width: 174px; float: right; }
+#content-no-layout .cols-4 .column-1 { width: 221.25px; float: left; }
+#content-no-layout .cols-4 .column-2 { width: 221.25px; float: left; margin: 0px 0px 0px 15px; }
+#content-no-layout .cols-4 .column-3 { width: 221.25px; float: left; margin: 0px 0px 0px 15px; }
+#content-no-layout .cols-4 .column-4 { width: 221.25px; float: right; }
+#content-no-layout .cols-3 .column-1 { width: 300px; float: left; }
+#content-no-layout .cols-3 .column-2 { width: 300px; float: left; margin: 0px 0px 0px 15px; }
+#content-no-layout .cols-3 .column-3 { width: 300px; float: right; }
+#content-no-layout .cols-2 .column-1 { width: 457.5px; float: left; }
+#content-no-layout .cols-2 .column-2 { width: 457.5px; float: right; }
+#content-no-layout .cols-1 .column-1 { width: 930px; float: left; }
+.items-leading { float: left; width: 100%; }
+}
+#content-right-layout .cols-4 .column-1, #content-left-layout .cols-4 .column-1, #content-right-layout .cols-4 .column-2, #content-left-layout .cols-4 .column-2, #content-right-layout .cols-4 .column-3, #content-left-layout .cols-4 .column-3, #content-right-layout .cols-4 .column-4, #content-left-layout .cols-4 .column-4, #content-right-layout .cols-3 .column-1, #content-left-layout .cols-3 .column-1, #content-right-layout .cols-3 .column-2, #content-left-layout .cols-3 .column-2, #content-right-layout .cols-3 .column-3, #content-left-layout .cols-3 .column-3, #content-right-layout .cols-2 .column-1, #content-left-layout .cols-2 .column-1, #content-right-layout .cols-2 .column-2, #content-left-layout .cols-2 .column-2, #content-right-layout .cols-1 .column-1, #content-left-layout .cols-1 .column-1, #content-left-right .cols-3 .column-1, #content-left-right .cols-3 .column-2, #content-left-right .cols-3 .column-3, #content-left-right .cols-2 .column-1, #content-left-right .cols-2 .column-2, #content-left-right .cols-1 .column-1, #content-no-layout .cols-5 .column-1, #content-no-layout .cols-5 .column-2, #content-no-layout .cols-5 .column-3, #content-no-layout .cols-5 .column-4, #content-no-layout .cols-5 .column-5, #content-no-layout .cols-4 .column-1, #content-no-layout .cols-4 .column-2, #content-no-layout .cols-4 .column-3, #content-no-layout .cols-4 .column-4, #content-no-layout .cols-3 .column-1, #content-no-layout .cols-3 .column-2, #content-no-layout .cols-3 .column-3, #content-no-layout .cols-2 .column-1, #content-no-layout .cols-2 .column-2, #content-no-layout .cols-1 .column-1, .items-leading { padding: 0px 0px 15px 0px; }
+/******************************/
+/******** Template CSS ********/
+/******************************/
+@media screen and (min-width:768px){
+.footer19 .one { width: 100%; float: left; }
+.footer19 .two { width: 100%; float: left; }
+.footer19 .three { width: 100%; float: left; }
+.footer19 .four { width: 100%; float: left; }
+.footer19 .five { width: 100%; float: left; }
+.footer24 .one { width: 23.5%; float: left; }
+.footer24 .two { width: 23.5%; float: left; margin: 0px 0px 0px 2%; }
+.footer24 .three { width: 23.5%; float: left; margin: 0px 0px 0px 2%; }
+.footer24 .four { width: 23.5%; float: right; }
+.footer33 .one { width: 32%; float: left; }
+.footer33 .two { width: 32%; float: left; margin: 0px 0px 0px 2%; }
+.footer33 .three { width: 32%; float: right; }
+.footer49 .one { width: 49%; float: left; }
+.footer49 .two { width: 49%; float: right; }
+.footer99 .one { width: 100%; float: left; }
+}
+@media screen and (min-width:1024px){
+.footer19 .one { width: 174px; float: left; }
+.footer19 .two { width: 174px; float: left; margin: 0px 0px 0px 15px; }
+.footer19 .three { width: 174px; float: left; margin: 0px 0px 0px 15px; }
+.footer19 .four { width: 174px; float: left; margin: 0px 0px 0px 15px; }
+.footer19 .five { width: 174px; float: right; }
+.footer24 .one { width: 221.25px; float: left; }
+.footer24 .two { width: 221.25px; float: left; margin: 0px 0px 0px 15px; }
+.footer24 .three { width: 221.25px; float: left; margin: 0px 0px 0px 15px; }
+.footer24 .four { width: 221.25px; float: right; }
+.footer33 .one { width: 300px; float: left; }
+.footer33 .two { width: 300px; float: left; margin: 0px 0px 0px 15px; }
+.footer33 .three { width: 300px; float: right; }
+.footer49 .one { width: 457.5px; float: left; }
+.footer49 .two { width: 457.5px; float: right; }
+.footer99 .one { width: 930px; float: left; }
+}
+/******************************/
+/******** Template CSS ********/
+/******************************/
+@media screen and (min-width:768px){
+#user-right-layout .user33 .one, #user-left-layout .user33 .one { width: 100%; float: left; }
+#user-right-layout .user33 .two, #user-left-layout .user33 .two { width: 100%; float: left; }
+#user-right-layout .user33 .three, #user-left-layout .user33 .three { width: 100%; float: left; }
+#user-right-layout .user49 .one, #user-left-layout .user49 .one { width: 48.5%; float: left; }
+#user-right-layout .user49 .two, #user-left-layout .user49 .two { width: 48.5%; float: right; }
+#user-right-layout .user99 .one, #user-left-layout .user99 .one { width: 100%; float: left; }
+#user-left-right .user33 .one { width: 100%; float: left; }
+#user-left-right .user33 .two { width: 100%; float: left; }
+#user-left-right .user33 .three { width: 100%; float: left; }
+#user-left-right .user49 .one { width: 48.5%; float: left; }
+#user-left-right .user49 .two { width: 48.5%; float: right; }
+#user-left-right .user99 .one { width: 100%; float: left; }
+#user-no-layout .user33 .one { width: 32%; float: left; }
+#user-no-layout .user33 .two { width: 32%; float: left; margin: 0px 0px 0px 2%; }
+#user-no-layout .user33 .three { width: 32%; float: right; }
+#user-no-layout .user49 .one { width: 49%; float: left; }
+#user-no-layout .user49 .two { width: 49%; float: right; }
+#user-no-layout .user99 .one { width: 100%; float: left; }
+}
+@media screen and (min-width:1024px){
+#user-right-layout .user33 .one, #user-left-layout .user33 .one { width: 210px; float: left; }
+#user-right-layout .user33 .two, #user-left-layout .user33 .two { width: 210px; float: left; margin: 0px 0px 0px 15px; }
+#user-right-layout .user33 .three, #user-left-layout .user33 .three { width: 210px; float: right; }
+#user-right-layout .user49 .one, #user-left-layout .user49 .one { width: 322.5px; float: left; }
+#user-right-layout .user49 .two, #user-left-layout .user49 .two { width: 322.5px; float: right; }
+#user-right-layout .user99 .one, #user-left-layout .user99 .one { width: 660px; float: left; }
+#user-left-right .user33 .one { width: 153.33px; float: left; }
+#user-left-right .user33 .two { width: 153.33px; float: left; margin: 0px 0px 0px 15px; }
+#user-left-right .user33 .three { width: 153.33px; float: right; }
+#user-left-right .user49 .one { width: 237.5px; float: left; }
+#user-left-right .user49 .two { width: 237.5px; float: right; }
+#user-left-right .user99 .one { width: 490px; float: left; }
+#user-no-layout .user33 .one { width: 300px; float: left; }
+#user-no-layout .user33 .two { width: 300px; float: left; margin: 0px 0px 0px 15px; }
+#user-no-layout .user33 .three { width: 300px; float: right; }
+#user-no-layout .user49 .one { width: 457.5px; float: left; }
+#user-no-layout .user49 .two { width: 457.5px; float: right; }
+#user-no-layout .user99 .one { width: 930px; float: left; }
+}
